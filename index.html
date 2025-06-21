@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone!</title>
+    <link rel="icon" href="https://img.icons8.com/?size=96&id=G9XXzb9XaEKX&format=png" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/utility.css">
+</head>
+
+<body class="bg-black flex">
+    <div class="left">
+        <div class="header bg-121212 rounded">
+            <div class="logo"><img class="" src="img/logo.svg" alt="Spotify"><img class="close" src="img/close.svg"
+                    alt=""></div>
+            <ul class="bold">
+                <li class="home"><img class="logo-size-2" src="img/home.svg" alt="home">Home</li>
+                <li><img class="logo-size-2" src="img/search.svg" alt="search">Search</li>
+            </ul>
+        </div>
+        <div class="library bg-121212 rounded">
+            <div class="title bold">
+                <img class="logo-size-2" src="img/playlist.svg" alt="">
+                <h3>Queue</h3>
+            </div>
+            <div class="songList">
+                <ul class="rounded">
+                </ul>
+            </div>
+            <div class="footer">
+                <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>PrivacyPolicy</span></a>
+                </div>
+                <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+                <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>AboutAds</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="right">
+        <div class="header bg-121212 rounded">
+            <div class="nav">
+                <img class="hamburger" src="img/hamburger.svg" alt="">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M15 6L9.70711 11.2929C9.37377 11.6262 9.20711 11.7929 9.20711 12C9.20711 12.2071 9.37377 12.3738 9.70711 12.7071L15 18"
+                        stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M9 18L14.2929 12.7071C14.6262 12.3738 14.7929 12.2071 14.7929 12C14.7929 11.7929 14.6262 11.6262 14.2929 11.2929L9 6"
+                        stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </div>
+            <div class="buttons">
+                <button>
+                    <span>Sign Up</span>
+                </button>
+                <button>
+                    <span>Login</span>
+                </button>
+            </div>
+        </div>
+        <div class="playlists bg-121212 rounded">
+            <h2>Playlists</h2>
+            <div class="card-container">
+            </div>
+        </div>
+        <div class="artists bg-121212 rounded">
+            <h2>Artists</h2>
+            <div class="artist-container">
+                <div class="artist">
+                    <img src="artistImg/ed-sheeran.jpeg" alt="">
+                    <h4>Ed Sheeran</h4>
+                </div>
+                <div class="artist">
+                    <img src="artistImg/j-cole.jpeg" alt="">
+                    <h4>J Cole</h4>
+                </div>
+                <div class="artist">
+                    <img src="artistImg/tyler-the-creator.jpeg" alt="">
+                    <h4>Tyler, The Creator</h4>
+                </div>
+                <div class="artist">
+                    <img src="artistImg/kendrick-lamar.jpeg" alt="">
+                    <h4>Kendrick Lamar</h4>
+                </div>
+                <div class="artist">
+                    <img src="artistImg/Post Malone.jpeg" alt="">
+                    <h4>Post Malone</h4>
+                </div>
+            </div>
+        </div>
+        <div class="playbar rounded">
+            <div class="main">
+                <div class="songInfo">Play Something!!!</div>
+                <div class="controls">
+                    <div class="buttons">
+                        <img id="prev" src="img/prevsong.svg" alt="Previous Song">
+                        <img id="play" class="play" src="img/play.svg" alt="Play/Pause">
+                        <img id="next" src="img/nextsong.svg" alt="Next Song">
+                    </div>
+                    <div class="voltime logo-size-1">
+                        <div class="songTime">00:00/00:00</div>
+                        <button><img id="volicon" src="img/volume.svg" alt=""></button>
+                        <div class="volume">
+                            <div class="volcircle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="seekbar">
+                <div class="circle"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="script/script.js"></script>
+
+</html>
