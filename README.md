@@ -1,6 +1,7 @@
 <div>
-  <img src="img/logo.svg" alt="Spotify Clone Preview" width="300">
+  <img src="img/logo.svg" alt="Spotify Clone Preview" width="30%">
 </div>
+
 <br>
 
 A beautiful and responsive Spotify-inspired music player built with **HTML**, **CSS**, and **JavaScript**. It features custom playlists, artist profiles, interactive playback controls, and a sleek UI—all with local audio and album data.
